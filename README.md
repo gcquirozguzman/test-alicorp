@@ -8,11 +8,11 @@
 
 <!-- Cuerpo de Readme -->
 
-# Comenzando 🚀
+## Comenzando 🚀
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-# Pre-requisitos 📋
+## Pre-requisitos 📋
 
 _A continuación se detallan las herramientas que son necesarias._
 
@@ -62,7 +62,7 @@ _A continuación se detallan las herramientas que son necesarias._
     🚨 https://dbeaver.com/files/dbeaver-ee-latest-x86_64-setup.exe
 ```
 
-# Configurando Ambiente 🔧
+## Configurando Ambiente 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
