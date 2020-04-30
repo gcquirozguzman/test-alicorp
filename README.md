@@ -70,7 +70,7 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 
 _📢 Acceder a la página de descarga_
 
-_📢 For more examples and usage, please refer to the [Wiki][wiki]._
+_   📢 For more examples and usage, please refer to the [Wiki][wiki]._
 
     
 
