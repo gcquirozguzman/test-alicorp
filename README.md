@@ -70,6 +70,7 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 
 ```
 📢 Ejecutar los script en el siguiente orden
+Creación de directorios - [script][script2]
 ```
 _💿💿 Creación de tablespaces - [script][script1]._
 
