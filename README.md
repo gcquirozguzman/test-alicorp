@@ -20,8 +20,6 @@ _A continuación se detallan las herramientas que son necesarias._
 ```
 📢 Acceder a la página de descarga: https://jdk.java.net/archive/
 📢 Ir a la sección 11.0.2 (build 11.0.2+9)
-📢 Descargar la versión Windows x64.
-📢 Instalar
 ```
 🔧 [Eclipse Foundation 2019-12 R]
 ```
@@ -32,11 +30,7 @@ _A continuación se detallan las herramientas que son necesarias._
 📢 Ingresar al "Centro de Descargas" https://developers.redhat.com/products/eap/download
 📢 Seleccionar la versión "Versión 7.2" y descargar https://developers.redhat.com/download-manager/file/jboss-eap-7.2.0.zip
 ```
-🔧 [Postman]
-```
-📢 Ingresar al "Centro de Descargas" https://www.postman.com/downloads/
-📢 Descargar la versión Windows x86	o Windows x64. 
-```
+
 
 ### Instalación 🔧
 
