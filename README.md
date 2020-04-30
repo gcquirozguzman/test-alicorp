@@ -105,11 +105,6 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 * Da las gracias públicamente 🤓.
 * etc.
 
-
-
----
-
-
 <!-- Recursos Link/Imagenes -->
 
 [contributors-shield]: https://img.shields.io/static/v1?label=contributors&message=LEGO%20TEAM&color=GREEN
