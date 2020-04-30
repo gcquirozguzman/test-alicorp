@@ -30,7 +30,10 @@ _A continuación se detallan las herramientas que son necesarias._
 📢 Ingresar al "Centro de Descargas" https://developers.redhat.com/products/eap/download
 📢 Seleccionar la versión "Versión 7.2" y descargar https://developers.redhat.com/download-manager/file/jboss-eap-7.2.0.zip
 ```
-
+🔧 [Apache Maven 3.6.2]
+```
+📢 Link Descarga - http://apache.dattatec.com/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.zip
+```
 
 ### Instalación 🔧
 
