@@ -16,13 +16,13 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 _A continuación se detallan las herramientas que son necesarias._
 
-🔧 [OpenJDK 11.0.2]
+💻 [OpenJDK 11.0.2]
 ```
 📢 Acceder a la página de descarga
     🚨 https://jdk.java.net/archive/
     🚨 Ir a la sección 11.0.2 (build 11.0.2+9)
 ```
-🔧 [Eclipse IDE]
+💻 [Eclipse IDE]
 ```
 📢 Acceder a la página de descarga
     🚨 https://www.eclipse.org/downloads/
