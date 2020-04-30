@@ -69,11 +69,34 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 🔨 [Importar la Base de Datos]
 
 ```
-📢 Creación de tablespace
+📢 Creación de tablespaces
 ```
-_💿📀 For more examples and usage, please refer to the [Wiki][wiki]._
+_💿📀 Ejecutar el siguiente [script][script1]._
 
-    
+```
+📢 Creación de directorios
+```
+_💿📀 Ejecutar el siguiente [script][script1]._
+
+```
+📢 Creación de usuarios
+```
+_💿📀 Ejecutar el siguiente [script][script1]._
+
+```
+📢 Creación de secuencias
+```
+_💿📀 Ejecutar el siguiente [script][script1]._
+
+```
+📢 Creación de tablas de Gifole
+```
+_💿📀 Ejecutar el siguiente [script][script1]._
+
+```
+📢 Creación de data en tablas de Gifole
+```
+_💿📀 Ejecutar el siguiente [script][script1]._
 
 
 _Dí cómo será ese paso_
