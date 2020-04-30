@@ -62,7 +62,7 @@ _A continuación se detallan las herramientas que son necesarias._
     🚨 https://dbeaver.com/files/dbeaver-ee-latest-x86_64-setup.exe
 ```
 
-### Instalación 🔧
+### Configurando Ambiente 🔧
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
@@ -97,19 +97,21 @@ _💿📀 Creación de data para tablas de Gifole(Job) - [script][script12]._
 
 _💿📀 Creación de tablas de Gifole(Quartz) - [script][script13]._
 
-
-
-```
-Da un ejemplo
-```
-
-_Y repite_
+🔨 [Importar las fuentes]
 
 ```
-hasta finalizar
+📢 GifoleWeb
 ```
 
-_Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo_
+_📡📡 Clonar las fuentes del [repositorioscript][repositorio-gifoleweb]._
+
+```
+📢 GifoleJob
+```
+
+_📡📡 Clonar las fuentes del [repositorioscript][repositorio-gifolejob]._
+
+
 
 ## Ejecutando las pruebas ⚙️
 
@@ -195,6 +197,8 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 [script11]: https://www.google.com
 [script12]: https://www.google.com
 [script13]: https://www.google.com
+[repositorio-gifoleweb]: https://globaldevtools.bbva.com/bitbucket/projects/BD_CS_DT_L/repos/gifole-web
+[repositorio-gifolejob]: https://globaldevtools.bbva.com/bitbucket/projects/BD_CS_DT_L/repos/gifole-job/browse
 
 <!-- Pie de Página -->
 
