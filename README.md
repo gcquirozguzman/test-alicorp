@@ -74,7 +74,7 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
     🚨 DBeaver Enterprise Edition 7.0
     🚨 https://dbeaver.com/files/dbeaver-ee-latest-x86_64-setup.exe
 ```
-
+🚨 [https://dbeaver.com/download/-](www.google.com)
 
 
 _Dí cómo será ese paso_
