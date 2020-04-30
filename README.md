@@ -69,37 +69,22 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 🔨 [Importar la Base de Datos]
 
 ```
-📢 Creación de tablespaces
+📢 Ejecutar los script en el siguiente orden
 ```
-_💿📀 Ejecutar el siguiente [script][script1]._
+_💿📀 Creación de tablespaces - [script][script1]._
+_💿📀 Creación de directorios - [script][script2]._
+_💿📀 Creación de usuarios - [script][script3]._
+_💿📀 Creación de secuencias - [script][script4]._
+_💿📀 Creación de tablas de Gifole - [script][script5]._
+_💿📀 Creación de data para tablas de Gifole - [script][script6]._
+_💿📀 Creación de índices para Gifole - [script][script7]._
+_💿📀 Creación de tablas de Gifpri - [script][script8]._
+_💿📀 Creación de data para tablas Gifpri - [script][script9]._
+_💿📀 Creación de índices para Gifpri - [script][script10]._
+_💿📀 Creación de tablas de Gifole(Job) - [script][script11]._
+_💿📀 Creación de data para tablas de Gifole(Job) - [script][script12]._
+_💿📀 Creación de tablas de Gifole(Quartz) - [script][script13]._
 
-```
-📢 Creación de directorios
-```
-_💿📀 Ejecutar el siguiente [script][script1]._
-
-```
-📢 Creación de usuarios
-```
-_💿📀 Ejecutar el siguiente [script][script1]._
-
-```
-📢 Creación de secuencias
-```
-_💿📀 Ejecutar el siguiente [script][script1]._
-
-```
-📢 Creación de tablas de Gifole
-```
-_💿📀 Ejecutar el siguiente [script][script1]._
-
-```
-📢 Creación de data en tablas de Gifole
-```
-_💿📀 Ejecutar el siguiente [script][script1]._
-
-
-_Dí cómo será ese paso_
 
 ```
 Da un ejemplo
