@@ -97,7 +97,7 @@ _💿📀 Creación de data para tablas de Gifole(Job) - [script][script12]._
 
 _💿📀 Creación de tablas de Gifole(Quartz) - [script][script13]._
 
-🔨 [Importar las fuentes]
+🔨 [Descargar fuentes]
 
 ```
 📢 GifoleWeb
@@ -112,6 +112,22 @@ _📡📡 Clonar las fuentes y configurarlo de acuerdo a las instrucciones del [
 _📡📡 Clonar las fuentes del [repositorioscript][repositorio-gifolejob]._
 
 
+🔨 [Importar Proyecto con Eclipse]
+
+```
+📢 Verificar que la versión sea JDK11 antes de iniciar el IDE.
+📢 Importar como proyecto Maven.
+📢 Verificar que exista el artefacto de GifoleWeb creado ([Ver Instrucciones de GifoleWeb][repositorio-gifoleweb]).
+    Nombre: gifole-web-0.8.1-classes.jar
+    Ruta: C:\Users\TU-USUARIO\.m2\repository\pe\com\bbva\gifole-web\0.8.1
+📢 Cambiar de nombre al artefacto cada vez que GifoleWeb genere uno nuevo.
+    Original: gifole-web-0.8.1-classes.jar
+    Nuevo: gifole-web-0.8.1.jar
+📢 Generar el artefacto de GifoleJob (mvn clean install).
+📢 Actualizar el proyecto Maven en el IDE (Alt+F5).
+```
+
+🔨 [Configurar Jboss]
 
 ## Ejecutando las pruebas ⚙️
 
