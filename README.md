@@ -236,8 +236,8 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Team Lego ✒️
 
-* **Diego Clemente** - *scrum Master* - [villanuevand](https://github.com/villanuevand)
-* **Gian Carlo Quiroz** - *Team Member* - [fulanitodetal](#fulanito-de-tal)
+* **Diego Clemente** - *Scrum Master* - [dclemente](https://www.google.com)
+* **Gian Carlo Quiroz** - *Team Member* - [gcquirozguzman](https://github.com/gcquirozguzman)
 
 <!-- Recursos Link/Imagenes -->
 
