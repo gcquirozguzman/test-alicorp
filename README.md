@@ -20,7 +20,7 @@ _A continuación se detallan las herramientas que son necesarias._
 ```
 📢 Acceder a la página de descarga: https://jdk.java.net/archive/
 📢 Ir a la sección 11.0.2 (build 11.0.2+9)
-📢 Descargar la versión Windows x86	o Windows x64.
+📢 Descargar la versión Windows x64.
 📢 Instalar
 ```
 🔧 [Eclipse Foundation 2019-12 R]
