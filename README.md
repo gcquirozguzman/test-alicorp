@@ -68,9 +68,9 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 
 🔨 [Importar la Base de Datos]
 
-📢 Acceder a la página de descarga
-🚨 [https://dbeaver.com/download/-](www.google.com)
+_📢 Acceder a la página de descarga_
     🚨 [https://dbeaver.com/download/-](www.google.com)
+    
 
 
 _Dí cómo será ese paso_
