@@ -73,17 +73,7 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 ```
 _💿📀 Creación de tablespaces - [script][script1]._
 _💿📀 Creación de directorios - [script][script2]._
-_💿📀 Creación de usuarios - [script][script3]._
-_💿📀 Creación de secuencias - [script][script4]._
-_💿📀 Creación de tablas de Gifole - [script][script5]._
-_💿📀 Creación de data para tablas de Gifole - [script][script6]._
-_💿📀 Creación de índices para Gifole - [script][script7]._
-_💿📀 Creación de tablas de Gifpri - [script][script8]._
-_💿📀 Creación de data para tablas Gifpri - [script][script9]._
-_💿📀 Creación de índices para Gifpri - [script][script10]._
-_💿📀 Creación de tablas de Gifole(Job) - [script][script11]._
-_💿📀 Creación de data para tablas de Gifole(Job) - [script][script12]._
-_💿📀 Creación de tablas de Gifole(Quartz) - [script][script13]._
+
 
 
 ```
@@ -169,7 +159,8 @@ Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md
 [download-shield]: https://img.shields.io/static/v1?label=download&message=clic&color=GREEN
 [download-url]: https://globaldevtools.bbva.com/bitbucket/rest/api/latest/projects/BD_CS_DT_L/repos/gifole-job/archive?format=zip
 
-[wiki]: https://github.com/yourname/yourproject/wiki
+[script1]: https://www.google.com
+[script2]: https://www.google.com
 
 <!-- Pie de Página -->
 
