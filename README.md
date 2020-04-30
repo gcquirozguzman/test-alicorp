@@ -103,7 +103,7 @@ _💿📀 Creación de tablas de Gifole(Quartz) - [script][script13]._
 📢 GifoleWeb
 ```
 
-_📡📡 Clonar las fuentes del [repositorioscript][repositorio-gifoleweb]._
+_📡📡 Clonar las fuentes y configurarlo de acuerdo a las instrucciones del [repositorioscript][repositorio-gifoleweb]._
 
 ```
 📢 GifoleJob
