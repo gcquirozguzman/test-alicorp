@@ -226,7 +226,7 @@ _Estas instrucciones fueron usadas para desplegar el aplicativo con integración
 📢 Solo los cambios en "develop" generan despliegue en JBoss.
 ```
 
-## Construido con 🛠️
+## Construido con 🎮
 
 _Frameworks y librerías que se usaron en el proyecto._
 
