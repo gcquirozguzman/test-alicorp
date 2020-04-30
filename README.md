@@ -81,21 +81,21 @@ _>>>> Creación de secuencias - [script][script4]._
 
 _>>>> Creación de tablas de Gifole - [script][script5]._
 
-_💿💿 Creación de data para tablas de Gifole - [script][script6]._
+_>>>> Creación de data para tablas de Gifole - [script][script6]._
 
-_💿💿 Creación de índices para Gifole - [script][script7]._
+_>>>> Creación de índices para Gifole - [script][script7]._
 
-_💿💿 Creación de tablas de Gifpri - [script][script8]._
+_>>>> Creación de tablas de Gifpri - [script][script8]._
 
-_💿💿 Creación de data para tablas Gifpri - [script][script9]._
+_>>>> Creación de data para tablas Gifpri - [script][script9]._
 
-_💿💿 Creación de índices para Gifpri - [script][script10]._
+_>>>> Creación de índices para Gifpri - [script][script10]._
 
-_💿💿 Creación de tablas de Gifole(Job) - [script][script11]._
+_>>>> Creación de tablas de Gifole(Job) - [script][script11]._
 
-_💿💿 Creación de data para tablas de Gifole(Job) - [script][script12]._
+_>>>> Creación de data para tablas de Gifole(Job) - [script][script12]._
 
-_💿💿 Creación de tablas de Gifole(Quartz) - [script][script13]._
+_>>>> Creación de tablas de Gifole(Quartz) - [script][script13]._
 
 🔨 [Descargar fuentes]
 
