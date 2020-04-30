@@ -12,11 +12,11 @@
 
 _Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-### Pre-requisitos 📋
+## Pre-requisitos 📋
 
 _A continuación se detallan las herramientas que son necesarias._
 
-💻 ####[OpenJDK 11.0.2]
+💻 ###[OpenJDK 11.0.2]
 ```
 📢 Acceder a la página de descarga
     🚨 https://jdk.java.net/archive/
