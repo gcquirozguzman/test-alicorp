@@ -48,17 +48,17 @@ _A continuación se detallan las herramientas que son necesarias._
 🔧 [Oracle Database Express Edition (XE)]
 ```
 📢 Acceder a la página de descarga
-    -> https://www.oracle.com/database/technologies/xe-downloads.html
+    🚨 https://www.oracle.com/database/technologies/xe-downloads.html
 📢 Versión usada con este material
-    -> Release 18.4.0.0.0 (18c)
+    🚨 Release 18.4.0.0.0 (18c)
 ```
 🔧 [DBeaver]
 ```
 📢 Acceder a la página de descarga
-    -> https://dbeaver.com/download/
+    🚨 https://dbeaver.com/download/
 📢 Versión usada con este material
-    -> DBeaver Enterprise Edition 7.0
-    -> https://dbeaver.com/files/dbeaver-ee-latest-x86_64-setup.exe
+    🚨 DBeaver Enterprise Edition 7.0
+    🚨 https://dbeaver.com/files/dbeaver-ee-latest-x86_64-setup.exe
 ```
 
 ### Instalación 🔧
