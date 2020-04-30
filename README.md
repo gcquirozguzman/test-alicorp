@@ -66,6 +66,17 @@ _A continuación se detallan las herramientas que son necesarias._
 
 _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
 
+🔨 [Importar la Base de Datos]
+```
+📢 Acceder a la página de descarga
+    🚨 [https://dbeaver.com/download/-](www.google.com)
+📢 Versión usada con este material
+    🚨 DBeaver Enterprise Edition 7.0
+    🚨 https://dbeaver.com/files/dbeaver-ee-latest-x86_64-setup.exe
+```
+
+
+
 _Dí cómo será ese paso_
 
 ```
