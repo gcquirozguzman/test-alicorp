@@ -228,11 +228,12 @@ _Estas instrucciones fueron usadas para desplegar el aplicativo con integración
 
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
+_Frameworks y librerías que se usaron en el proyecto._
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - El framework web usado
-* [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
+* OpenJDK 11
+* Spring MVC 4
+* Maven
+* Vue
 
 ## Team Lego ✒️
 
