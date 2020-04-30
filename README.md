@@ -71,7 +71,7 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 ```
 📢 Creación de tablespace
 ```
-_💿 For more examples and usage, please refer to the [Wiki][wiki]._
+_💿   For more examples and usage, please refer to the [Wiki][wiki]._
 
     
 
