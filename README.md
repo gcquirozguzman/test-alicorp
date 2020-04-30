@@ -68,10 +68,12 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 
 🔨 [Importar la Base de Datos]
 
-_📢 Acceder a la página de descarga_
+```
+📢 Creación de tablespace
+```
 
-_📢 For more examples and usage, please refer to the [Wiki][wiki]._
-_   ->For more examples and usage, please refer to the [Wiki][wiki]._
+
+_For more examples and usage, please refer to the [Wiki][wiki]._
 
     
 
