@@ -2,7 +2,6 @@
 
 ![Contributors][contributors-shield]
 ![Version][version-shield]
-![Download][version-shield]
 [![Download][download-shield]][download-url]
 
 
