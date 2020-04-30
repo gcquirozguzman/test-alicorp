@@ -97,20 +97,19 @@ _>>>> Creación de data para tablas de Gifole(Job) - [script][script12]._
 
 _>>>> Creación de tablas de Gifole(Quartz) - [script][script13]._
 
-🔨 [Descargar fuentes]
+🔨 [Descargar fuentes Gifole]
 
 ```
-📢 GifoleWeb
+📢 Clonar las fuentes y configurarlo de acuerdo a las instrucciones del repositorio._
+    🚨 https://globaldevtools.bbva.com/bitbucket/projects/BD_CS_DT_L/repos/gifole-web
 ```
 
-_📡📡 Clonar las fuentes y configurarlo de acuerdo a las instrucciones del [repositorioscript][repositorio-gifoleweb]._
+🔨 [Descargar fuentes Job]
 
 ```
-📢 GifoleJob
+📢 Clonar las fuentes._
+    🚨 https://globaldevtools.bbva.com/bitbucket/projects/BD_CS_DT_L/repos/gifole-job/browse
 ```
-
-_📡📡 Clonar las fuentes del [repositorioscript][repositorio-gifolejob]._
-
 
 🔨 [Importar Proyecto con Eclipse]
 
@@ -118,16 +117,66 @@ _📡📡 Clonar las fuentes del [repositorioscript][repositorio-gifolejob]._
 📢 Verificar que la versión sea JDK11 antes de iniciar el IDE.
 📢 Importar como proyecto Maven.
 📢 Verificar que exista el artefacto de GifoleWeb creado ([Ver Instrucciones de GifoleWeb][repositorio-gifoleweb]).
-    Nombre: gifole-web-0.8.1-classes.jar
-    Ruta: C:\Users\TU-USUARIO\.m2\repository\pe\com\bbva\gifole-web\0.8.1
+    🚨 Nombre: gifole-web-0.8.1-classes.jar
+    🚨 Ruta: C:\Users\TU-USUARIO\.m2\repository\pe\com\bbva\gifole-web\0.8.1
 📢 Cambiar de nombre al artefacto cada vez que GifoleWeb genere uno nuevo.
-    Original: gifole-web-0.8.1-classes.jar
-    Nuevo: gifole-web-0.8.1.jar
+    🚨 Original: gifole-web-0.8.1-classes.jar
+    🚨 Nuevo: gifole-web-0.8.1.jar
 📢 Generar el artefacto de GifoleJob (mvn clean install).
 📢 Actualizar el proyecto Maven en el IDE (Alt+F5).
 ```
 
 🔨 [Configurar Jboss]
+
+```
+📢 Descargar e instalar el adaptador de servidor de aplicaciones Jboss para el IDE.
+    🚨 Install New Software.
+    🚨 Ingresar en Work With: http://download.jboss.org/jbosstools/updates/webtools/photon/
+    🚨 Seleccionar: Jboss Application Server Adapters.
+📢 Agregar el servidor al IDE.
+    🚨 Red Hat Jboss Middleware.
+    🚨 Seleccionar la versión de Java11 antes de finalizar.
+📢 Agregar JNDI.
+    🚨 Ingresar a la carpeta del servidor "jboss-eap-7.2\standalone\configuration".
+    🚨 Abrir el archivo "standalone.xml".
+    🚨 Dentro de la etiqueta "<datasources>" agregar el JNDI de GIFPRI
+        <datasource jndi-name="java:jboss/datasources/APP_GIFPRI" pool-name="jdbc/APP_GIFPRI" enabled="true">
+            <connection-url>jdbc:oracle:thin:@localhost:1521:xe</connection-url>
+            <driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+            <driver>oraclethin</driver>
+            <security>
+                <user-name>APP_GIFPRI</user-name>
+                <password>APP_GIFPRI</password>
+            </security>
+            <validation>
+                <valid-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.oracle.OracleValidConnectionChecker"/>
+                <background-validation>true</background-validation>
+                <stale-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.oracle.OracleStaleConnectionChecker"/>
+                <exception-sorter class-name="org.jboss.jca.adapters.jdbc.extensions.oracle.OracleExceptionSorter"/>
+            </validation>
+        </datasource>
+    🚨 En la misma etiqueta <datasources> agregar el JNDI de GIFOLE
+        <datasource jndi-name="java:jboss/datasources/APP_GIFOLE" pool-name="jdbc/APP_GIFOLE" enabled="true">
+            <connection-url>jdbc:oracle:thin:@localhost:1521:xe</connection-url>
+            <driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+            <driver>oraclethin</driver>
+            <security>
+                <user-name>APP_GIFOLE</user-name>
+                <password>APP_GIFOLE</password>
+            </security>
+            <validation>
+                <valid-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.oracle.OracleValidConnectionChecker"/>
+                <background-validation>true</background-validation>
+                <stale-connection-checker class-name="org.jboss.jca.adapters.jdbc.extensions.oracle.OracleStaleConnectionChecker"/>
+                <exception-sorter class-name="org.jboss.jca.adapters.jdbc.extensions.oracle.OracleExceptionSorter"/>
+            </validation>
+        </datasource>
+    🚨 Dentro de la etiqueta "<datasources>" en la etiqueta <drivers> agregar el driver de Oracle.                
+        <driver name="oraclethin" module="com.oracle.ojdbc18">
+                <driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
+                <xa-datasource-class>oracle.jdbc.xa.client.OracleXADataSource</xa-datasource-class>
+        </driver>
+```
 
 ## Ejecutando las pruebas ⚙️
 
