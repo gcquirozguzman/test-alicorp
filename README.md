@@ -1,4 +1,4 @@
-# Gifole JOb
+# Gifole Job
 
 ![Contributors][contributors-shield]
 ![Version][version-shield]
