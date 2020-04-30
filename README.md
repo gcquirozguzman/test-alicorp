@@ -72,6 +72,8 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 📢 Ejecutar los script en el siguiente orden
 ```
 _💿📀 Creación de tablespaces - [script][script1]._
+
+
 _💿📀 Creación de directorios - [script][script2]._
 
 
