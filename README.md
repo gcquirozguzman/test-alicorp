@@ -18,8 +18,9 @@ _A continuación se detallan las herramientas que son necesarias._
 
 🔧 [OpenJDK 11.0.2]
 ```
-📢 Acceder a la página de descarga: https://jdk.java.net/archive/
-📢 Ir a la sección 11.0.2 (build 11.0.2+9)
+📢 Acceder a la página de descarga
+    🚨 https://jdk.java.net/archive/
+    🚨 Ir a la sección 11.0.2 (build 11.0.2+9)
 ```
 🔧 [Eclipse IDE]
 ```
