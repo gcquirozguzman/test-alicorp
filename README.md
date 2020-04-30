@@ -24,10 +24,10 @@ _A continuación se detallan las herramientas que son necesarias._
 🔧 [Eclipse IDE]
 ```
 📢 Acceder a la página de descarga
-    -> https://www.eclipse.org/downloads/
+    🚨 https://www.eclipse.org/downloads/
 📢 Versión usada con este material
-    -> Eclipse IDE Foundation 2019-12 R
-    -> https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-12/R/eclipse-jee-2019-12-R-win32-x86_64.zip&mirror_id=576
+    🚨 Eclipse IDE Foundation 2019-12 R
+    🤖 https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-12/R/eclipse-jee-2019-12-R-win32-x86_64.zip&mirror_id=576
 ```
 🔧 [JBoss EAP 7.2.0]
 ```
