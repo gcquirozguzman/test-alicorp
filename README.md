@@ -137,7 +137,7 @@ _>>>> Creación de tablas de Gifole(Quartz) - [script][script13]._
     🚨 Red Hat Jboss Middleware.
     🚨 Seleccionar la versión de Java11 antes de finalizar.
 📢 Agregar JNDI.
-    🚨 Ingresar a la carpeta del servidor "jboss-eap-7.2\standalone\configuration".
+    🚨 Ingresar a la carpeta en el servidor "jboss-eap-7.2\standalone\configuration".
     🚨 Abrir el archivo "standalone.xml".
     🚨 Dentro de la etiqueta "<datasources>" agregar el JNDI de GIFPRI
         <datasource jndi-name="java:jboss/datasources/APP_GIFPRI" pool-name="jdbc/APP_GIFPRI" enabled="true">
@@ -176,6 +176,20 @@ _>>>> Creación de tablas de Gifole(Quartz) - [script][script13]._
                 <driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
                 <xa-datasource-class>oracle.jdbc.xa.client.OracleXADataSource</xa-datasource-class>
         </driver>
+📢 Agregar módulo.
+    🚨 Ingresar a la carpeta en el servidor "jboss-eap-7.2\modules\system\layers\base\com\oracle\ojdbc18\main".
+    🚨 Si no existe, crear las carpetas necesarias.
+    🚨 En esa carpeta colocar el "ojdbc6.jar" y crear el archivo "module.xml" con lo siguiente:
+        <?xml version="1.0" encoding="UTF-8"?>
+        <module xmlns="urn:jboss:module:1.1" name="com.oracle.ojdbc18">
+          <resources>
+            <resource-root path="ojdbc6.jar"/>
+          </resources>
+          <dependencies>
+            <module name="javax.api"/>
+            <module name="javax.transaction.api"/>
+          </dependencies>
+        </module>
 ```
 
 ## Ejecutando las pruebas ⚙️
