@@ -17,10 +17,28 @@ Mira **Deployment** para conocer como desplegar el proyecto.
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_A continuación se detallan las herramientas que son necesarias._
 
+🔧 [OpenJDK 11.0.2]
 ```
-Da un ejemplo
+📢 Acceder a la página de descarga: https://jdk.java.net/archive/
+📢 Ir a la sección 11.0.2 (build 11.0.2+9)
+📢 Descargar la versión Windows x86	o Windows x64.
+📢 Instalar
+```
+🔧 [Eclipse Foundation 2019-12 R]
+```
+📢 Link Descarga Eclipse IDE Foundation 2019-12 R - https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-12/R/eclipse-jee-2019-12-R-win32-x86_64.zip&mirror_id=576
+```
+🔧 [JBoss EAP 7.2.0]
+```
+📢 Ingresar al "Centro de Descargas" https://developers.redhat.com/products/eap/download
+📢 Seleccionar la versión "Versión 7.2" y descargar https://developers.redhat.com/download-manager/file/jboss-eap-7.2.0.zip
+```
+🔧 [Postman]
+```
+📢 Ingresar al "Centro de Descargas" https://www.postman.com/downloads/
+📢 Descargar la versión Windows x86	o Windows x64. 
 ```
 
 ### Instalación 🔧
