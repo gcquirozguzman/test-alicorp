@@ -30,7 +30,7 @@ _A continuación se detallan las herramientas que son necesarias._
     🚨 Eclipse IDE Foundation 2019-12 R
     🚨 https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-12/R/eclipse-jee-2019-12-R-win32-x86_64.zip&mirror_id=576
 ```
-🔧 [JBoss EAP 7.2.0]
+💻 [JBoss EAP 7.2.0]
 ```
 📢 Acceder a la página de descarga
     🚨 https://developers.redhat.com/products/eap/download
@@ -38,7 +38,7 @@ _A continuación se detallan las herramientas que son necesarias._
 📢 Link directo de descarga
     🚨 https://developers.redhat.com/download-manager/file/jboss-eap-7.2.0.zip
 ```
-🔧 [Apache Maven 3.6.2]
+💻 [Apache Maven 3.6.2]
 ```
 📢 Acceder a la página de descarga
     🚨 https://maven.apache.org/download.cgi
@@ -46,14 +46,14 @@ _A continuación se detallan las herramientas que son necesarias._
     🚨 Maven 3.6.2
     🚨 http://apache.dattatec.com/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.zip
 ```
-🔧 [Oracle Database Express Edition (XE)]
+💻 [Oracle Database Express Edition (XE)]
 ```
 📢 Acceder a la página de descarga
     🚨 https://www.oracle.com/database/technologies/xe-downloads.html
 📢 Versión usada con este material
     🚨 Release 18.4.0.0.0 (18c)
 ```
-🔧 [DBeaver]
+💻 [DBeaver]
 ```
 📢 Acceder a la página de descarga
     🚨 https://dbeaver.com/download/
