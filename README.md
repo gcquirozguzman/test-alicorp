@@ -73,13 +73,13 @@ _Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener 
 ```
 _***** Creación de tablespaces - [script][script1]._
 
-_💿💿 Creación de directorios - [script][script2]._
+_----> Creación de directorios - [script][script2]._
 
-_💿💿 Creación de usuarios - [script][script3]._
+_----- Creación de usuarios - [script][script3]._
 
-_💿💿 Creación de secuencias - [script][script4]._
+______ Creación de secuencias - [script][script4]._
 
-_💿💿 Creación de tablas de Gifole - [script][script5]._
+_>>>>> Creación de tablas de Gifole - [script][script5]._
 
 _💿💿 Creación de data para tablas de Gifole - [script][script6]._
 
