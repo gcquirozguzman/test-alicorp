@@ -64,7 +64,7 @@ _A continuación se detallan las herramientas que son necesarias._
 
 ## Configurando Ambiente 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
+_Estas instrucciones te permitirán configurar las herramientas necesarias para levantar el aplicativo._
 
 🔨 [Importar la Base de Datos]
 
@@ -192,29 +192,39 @@ _>>>> Creación de tablas de Gifole(Quartz) - [script][script13]._
         </module>
 ```
 
-## Ejecutando las pruebas ⚙️
-
-_Explica como ejecutar las pruebas automatizadas para este sistema_
-
-### Analice las pruebas end-to-end 🔩
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
-### Y las pruebas de estilo de codificación ⌨️
-
-_Explica que verifican estas pruebas y por qué_
-
-```
-Da un ejemplo
-```
-
 ## Despliegue 📦
 
-_Agrega notas adicionales sobre como hacer deploy_
+_Estas instrucciones fueron usadas para desplegar el aplicativo con integración continua._
+
+🔨 [Jenkins]
+
+```
+📢 Agregar el archivo Jenkinsfile en la carpeta raiz y agregar las siguientes líneas.
+
+    @Library("workflow-spring") _
+
+    spring {
+        country = 'pe'
+        group = 'generic_maven_java_11_deploy'
+        uuaa = 'bnet-zonapublica-pe-mvn'
+        vars = [
+            path_pom: '.',
+            artifactory_id: 'bot-bnet',
+            include_files: './target/gifole-job.war'
+        ]
+    }
+    
+📢 Agregar el artefacto de Gifole de la carpeta ".m2" con el nombre "gifole-web-0.8.1.jar".
+📢 Ingresar a la siguiente página para subirlo.
+    https://globaldevtools.bbva.com/piaas-pe/job/Tools/job/deploy_artifactory_whithout_pom/build?delay=0sec
+📢 Ingresar los datos solicitados
+    -> GROUP_ID: pe.com.bbva
+    -> ARTIFACT_ID: gifole-web
+    -> VERSION: 0.8.1
+📢 Crear una segunda rama en base a "master" con nombre "develop".
+📢 Empujar un cambio en "develop" para que reconozca que hay un cambio y despliegue en JBoss.
+📢 Solo los cambios en "develop" generan despliegue en JBoss.
+```
 
 ## Construido con 🛠️
 
@@ -224,37 +234,10 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
 * [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
-## Contribuyendo 🖇️
+## Team Lego ✒️
 
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
-## Wiki 📖
-
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/tu/proyecto/wiki)
-
-## Versionado 📌
-
-Usamos [SemVer](http://semver.org/) para el versionado. Para todas las versiones disponibles, mira los [tags en este repositorio](https://github.com/tu/proyecto/tags).
-
-## Autores ✒️
-
-_Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
-
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
-* **Fulanito Detal** - *Documentación* - [fulanitodetal](#fulanito-de-tal)
-
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/your/project/contributors) quíenes han participado en este proyecto. 
-
-## Licencia 📄
-
-Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
-
-## Expresiones de Gratitud 🎁
-
-* Comenta a otros sobre este proyecto 📢
-* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
-* Da las gracias públicamente 🤓.
-* etc.
+* **Diego Clemente** - *scrum Master* - [villanuevand](https://github.com/villanuevand)
+* **Gian Carlo Quiroz** - *Team Member* - [fulanitodetal](#fulanito-de-tal)
 
 <!-- Recursos Link/Imagenes -->
 
