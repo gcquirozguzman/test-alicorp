@@ -1,11 +1,11 @@
 # Gifole JOb
 
 ![Contributors][contributors-shield]
-![Version][forks-shield]]
-![Stargazers][stars-shield]]
-![Issues][issues-shield]]
-![MIT License][license-shield]]
-![LinkedIn][linkedin-shield]]
+![Version][forks-shield]
+![Stargazers][stars-shield]
+![Issues][issues-shield]
+![MIT License][license-shield]
+![LinkedIn][linkedin-shield]
 
 
 One to two paragraph statement about your product and what it does.
