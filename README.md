@@ -21,19 +21,37 @@ _A continuación se detallan las herramientas que son necesarias._
 📢 Acceder a la página de descarga: https://jdk.java.net/archive/
 📢 Ir a la sección 11.0.2 (build 11.0.2+9)
 ```
-🔧 [Eclipse Foundation 2019-12 R]
+🔧 [Eclipse IDE]
 ```
-📢 Link Descarga Eclipse IDE Foundation 2019-12 R - https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-12/R/eclipse-jee-2019-12-R-win32-x86_64.zip&mirror_id=576
+📢 Acceder a la página de descarga
+    -> https://www.eclipse.org/downloads/
+📢 Versión usada con este material
+    -> Eclipse IDE Foundation 2019-12 R
+    -> https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-12/R/eclipse-jee-2019-12-R-win32-x86_64.zip&mirror_id=576
 ```
 🔧 [JBoss EAP 7.2.0]
 ```
-📢 Ingresar al "Centro de Descargas" https://developers.redhat.com/products/eap/download
-📢 Seleccionar la versión "Versión 7.2" y descargar https://developers.redhat.com/download-manager/file/jboss-eap-7.2.0.zip
+📢 Acceder a la página de descarga
+    -> https://developers.redhat.com/products/eap/download
+📢 Seleccionar la versión "Versión 7.2" y descargar
+📢 Link directo de descarga
+    -> https://developers.redhat.com/download-manager/file/jboss-eap-7.2.0.zip
 ```
 🔧 [Apache Maven 3.6.2]
 ```
-📢 Link Descarga - http://apache.dattatec.com/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.zip
+📢 Acceder a la página de descarga
+    -> https://maven.apache.org/download.cgi
+📢 Versión usada con este material
+    -> Maven 3.6.2
+    -> http://apache.dattatec.com/maven/maven-3/3.6.2/binaries/apache-maven-3.6.2-bin.zip
 ```
+🔧 [Oracle Database Express Edition (XE)]
+```
+📢 Link Descarga - https://www.oracle.com/database/technologies/xe-downloads.html
+📢 Versión usada con este material
+    -> Release 18.4.0.0.0 (18c)
+```
+
 
 ### Instalación 🔧
 
